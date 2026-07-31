@@ -7,10 +7,6 @@ pre: " <b> 6. </b> "
 includeInReport: false
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 Trong suốt thời gian thực tập tại **chương trình First Cloud AI Journey (FCAJ)** từ **10/06/2026** đến **30/07/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
 Tôi đã tham gia **dự án aws-rag-project** — xây dựng và triển khai pipeline Retrieval-Augmented Generation (RAG) cho bài toán suy luận nhiều bước (multi-hop reasoning) trên bộ dữ liệu HotpotQA, từ khâu lập chỉ mục offline cho đến dịch vụ cloud hoàn chỉnh được triển khai trên AWS. Qua dự án này, tôi đã cải thiện kỹ năng **lập trình Python/FastAPI, kỹ thuật LangChain và RAG, các dịch vụ AWS (EC2, S3, API Gateway, Amplify, SSM, Secrets Manager, IAM, CloudWatch), phát triển frontend với React và viết tài liệu kỹ thuật**.
 

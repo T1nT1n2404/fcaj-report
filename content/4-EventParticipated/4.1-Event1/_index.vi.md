@@ -6,11 +6,6 @@ chapter: false
 pre: " <b> 4.1. </b> "
 includeInReport: true
 ---
-
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 # Bài thu hoạch: Cuộc thi Cloud Competition của AWS - Vòng loại
 
 Vào ngày **20/06/2026**, tôi đã có cơ hội đến xem với vai trò **khán giả** tại **vòng loại** của cuộc thi **AWS Cloud Competition** do **Amazon Web Services (AWS)** tổ chức. Sự kiện quy tụ nhiều đội thi đối đầu với nhau bằng cách trả lời các câu hỏi trắc nghiệm về chủ đề cloud computing. Tôi chỉ đến với tư cách người xem, không phải là người tham gia thi đấu.

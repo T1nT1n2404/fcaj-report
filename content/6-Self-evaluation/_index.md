@@ -7,10 +7,6 @@ pre: " <b> 6. </b> "
 includeInReport: false
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
 During my internship at **First Cloud AI Journey (FCAJ) program** from **10/06/2026** to **30/07/2026**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
 I participated in **the aws-rag-project** — building and deploying a Retrieval-Augmented Generation (RAG) pipeline for multi-hop reasoning on the HotpotQA dataset, from offline indexing to a fully deployed cloud service on AWS. Through this project, I improved my skills in **Python/FastAPI development, LangChain and RAG techniques, AWS cloud services (EC2, S3, API Gateway, Amplify, SSM, Secrets Manager, IAM, CloudWatch), frontend development with React, and technical documentation**.
 

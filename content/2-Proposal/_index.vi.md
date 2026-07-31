@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 2. </b> "
 includeInReport: false
 ---
-Tại phần này, bạn cần tóm tắt các nội dung trong workshop mà bạn **dự tính** sẽ làm.
 
 # Retrieval-Augmented Generation Cho Suy Luận Đa Bước Trên HotpotQA
 ## Một Pipeline RAG Hybrid-Retrieval Thích Nghi Với Lập Kế Hoạch Truy Vấn Theo Hop, Triển Khai Trên AWS
