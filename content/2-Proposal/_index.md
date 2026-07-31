@@ -7,6 +7,7 @@ pre: " <b> 2. </b> "
 includeInReport: false
 ---
 
+
 # Retrieval-Augmented Generation for Multi-Hop Reasoning on HotpotQA
 ## An Adaptive Hybrid-Retrieval RAG Pipeline with Hop-Aware Query Planning, Deployed on AWS
 
