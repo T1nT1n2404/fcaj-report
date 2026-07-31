@@ -8,7 +8,7 @@ pre: " <b> 3.2. </b> "
 
 # AWS Cost Optimization: Don't Just Look at the Bill
 
-![Blog post published on the AWS Study Group VN Facebook group](/images/BlogsPosted/blog2.png)
+![Blog post published on the AWS Study Group VN Facebook group](images/BlogsPosted/blog2.png)
 *Posted to the AWS Study Group VN Facebook group.*
 
 When an AWS bill goes up, many teams' first reaction is to look for resources to shut down, configurations to shrink, or the service that's costing the most. These moves can lower costs in the short term, but they're not enough to conclude that the system has actually been optimized.

@@ -78,7 +78,7 @@ Mọi region khác `us-east-1` đều bắt buộc phải có cờ `--create-buc
        - ô "Block all public access" ĐANG ĐƯỢC TICK
      Chỉ một tấm này đã chứng minh được cả quyết định về region lẫn mặc định bảo mật. -->
 
-![Tạo bucket chứa artifact](/images/5-Workshop/5.5-S3-Storage/create-bucket.png)
+![Tạo bucket chứa artifact](images/5-Workshop/5.5-S3-Storage/create-bucket.png)
 
 ---
 
@@ -123,7 +123,7 @@ SSE-KMS với khóa do khách hàng quản lý sẽ cho dấu vết kiểm toán
        - "Default encryption: Server-side encryption with Amazon S3 managed keys (SSE-S3)"
      Nếu không vừa một màn hình thì chụp hai tấm và đặt cạnh nhau. -->
 
-![Đã bật versioning và mã hóa mặc định](/images/5-Workshop/5.5-S3-Storage/bucket-properties.png)
+![Đã bật versioning và mã hóa mặc định](images/5-Workshop/5.5-S3-Storage/bucket-properties.png)
 
 ---
 
@@ -195,7 +195,7 @@ Trên Windows, nhớ đặt đường dẫn cục bộ trong dấu nháy - thư 
      Đảm bảo thấy được ít nhất một dòng cho mỗi prefix corpora/, processed/ và indexes/,
      để người đọc thấy cả ba đã được ghi lên. -->
 
-![Upload cây artifact lên S3](/images/5-Workshop/5.5-S3-Storage/upload-output.png)
+![Upload cây artifact lên S3](images/5-Workshop/5.5-S3-Storage/upload-output.png)
 
 ---
 
@@ -233,7 +233,7 @@ rag/indexes/<index id>/manifests/index_manifest.json
      và thấy được các thư mục corpora/ processed/ indexes/.
      Giữ breadcrumb trong khung - nó chứng minh tên bucket. -->
 
-![Prefix rag/ trên S3 Console](/images/5-Workshop/5.5-S3-Storage/s3-console-tree.png)
+![Prefix rag/ trên S3 Console](images/5-Workshop/5.5-S3-Storage/s3-console-tree.png)
 
 Vào sâu thêm một cấp, `indexes/<index id>/` chứa đúng ba prefix mà backend đọc lúc khởi động:
 
@@ -242,7 +242,7 @@ Vào sâu thêm một cấp, `indexes/<index id>/` chứa đúng ba prefix mà b
      manifests/ và s3vectors-import/.
      Giữ breadcrumb trong khung - nó chứng minh index id. -->
 
-![Bên trong prefix index](/images/5-Workshop/5.5-S3-Storage/s3-console-index.png)
+![Bên trong prefix index](images/5-Workshop/5.5-S3-Storage/s3-console-index.png)
 
 ---
 

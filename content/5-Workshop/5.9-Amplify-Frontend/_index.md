@@ -166,7 +166,7 @@ If the first question after an idle period times out, that is the cold start des
      evidence for the end-to-end deployment criterion in the grading rubric. Chapter 5.3 references
      the same shot, so take it once and reuse it. -->
 
-![The deployed application answering a question](/images/5-Workshop/5.9-Amplify-Frontend/deployed-app.png)
+![The deployed application answering a question](images/5-Workshop/5.9-Amplify-Frontend/deployed-app.png)
 
 ---
 

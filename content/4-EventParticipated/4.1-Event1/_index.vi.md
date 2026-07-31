@@ -60,8 +60,8 @@ Theo dõi vòng loại cuộc thi AWS Cloud Competition với tư cách khán gi
 
 ### Hình ảnh sự kiện
 
-![Event 1 - Ảnh 1](/images/4-EventsParticipated/Event1-1.png)
+![Event 1 - Ảnh 1](images/4-EventsParticipated/Event1-1.png)
 
-![Event 1 - Ảnh 2](/images/4-EventsParticipated/event1-2.png)
+![Event 1 - Ảnh 2](images/4-EventsParticipated/event1-2.png)
 
 > Tổng thể, việc tham dự vòng loại cuộc thi AWS Cloud Competition với vai trò khán giả vừa thú vị vừa bổ ích. Nó củng cố kiến thức hiện có, phơi bày những lĩnh vực cần cải thiện và truyền cảm hứng để tôi tiếp tục phát triển với tư cách một nhà phát triển cloud.

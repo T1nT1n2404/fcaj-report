@@ -60,8 +60,8 @@ Attending the qualifying round of the AWS Cloud Competition as an audience membe
 
 ### Event Photos
 
-![Event 1 - Photo 1](/images/4-EventsParticipated/Event1-1.png)
+![Event 1 - Photo 1](images/4-EventsParticipated/Event1-1.png)
 
-![Event 1 - Photo 2](/images/4-EventsParticipated/event1-2.png)
+![Event 1 - Photo 2](images/4-EventsParticipated/event1-2.png)
 
 > Overall, attending the qualifying round of the AWS Cloud Competition as a spectator was both enjoyable and educational. It reinforced my existing knowledge, revealed areas for improvement, and inspired me to continue growing as a cloud developer.

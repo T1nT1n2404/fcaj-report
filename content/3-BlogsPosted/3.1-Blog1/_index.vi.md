@@ -8,7 +8,7 @@ pre: " <b> 3.1. </b> "
 
 # Amazon S3 Annotations: Metadata Có Thể Cập Nhật Và Truy Vấn Cho Từng Object
 
-![Bài viết đã đăng trên nhóm Facebook AWS Study Group VN](/images/BlogsPosted/blog1.png)
+![Bài viết đã đăng trên nhóm Facebook AWS Study Group VN](images/BlogsPosted/blog1.png)
 *Đã đăng lên nhóm Facebook AWS Study Group VN.*
 
 Amazon S3 đã hỗ trợ nhiều loại metadata để mô tả và quản lý object, chẳng hạn kích thước, storage class, cùng object tags và user-defined metadata cho các nhu cầu quản lý khác nhau.

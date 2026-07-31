@@ -109,7 +109,7 @@ Public IPv4 addresses are billed hourly whether or not they are in use, so an El
      rag-ec2-runtime-role.
      Blur the instance id and the IP if you prefer not to publish them. -->
 
-![The backend instance with its Elastic IP and role](/images/5-Workshop/5.7-EC2-Backend/ec2-instance.png)
+![The backend instance with its Elastic IP and role](images/5-Workshop/5.7-EC2-Backend/ec2-instance.png)
 
 ---
 
@@ -177,7 +177,7 @@ If the agent logs credential errors, the cause is almost always a missing `Amazo
      Two things must be visible: the Session Manager interface itself (proving no SSH
      was used) and the service showing "active (running)". -->
 
-![Connecting through Session Manager](/images/5-Workshop/5.7-EC2-Backend/session-manager.png)
+![Connecting through Session Manager](images/5-Workshop/5.7-EC2-Backend/session-manager.png)
 
 ---
 
@@ -267,7 +267,7 @@ That migration has **not** been performed on this deployment. It is recorded her
      Screenshot that output rather than `cat`.
      Never publish a screenshot containing the key value. -->
 
-![The production environment file](/images/5-Workshop/5.7-EC2-Backend/env-prod.png)
+![The production environment file](images/5-Workshop/5.7-EC2-Backend/env-prod.png)
 
 ## 8. Run it under systemd
 

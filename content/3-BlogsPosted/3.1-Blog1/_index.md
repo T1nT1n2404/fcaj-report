@@ -8,7 +8,7 @@ pre: " <b> 3.1. </b> "
 
 # Amazon S3 Annotations: Updatable, Queryable Metadata for Each Object
 
-![Blog post published on the AWS Study Group VN Facebook group](/images/BlogsPosted/blog1.png)
+![Blog post published on the AWS Study Group VN Facebook group](images/BlogsPosted/blog1.png)
 *Posted to the AWS Study Group VN Facebook group.*
 
 Amazon S3 already supports several kinds of metadata for describing and managing objects, such as size, storage class, object tags, and user-defined metadata for different management needs.

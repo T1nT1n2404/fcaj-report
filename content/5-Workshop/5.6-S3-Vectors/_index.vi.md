@@ -61,7 +61,7 @@ Tên bucket tuân theo cùng quy tắc như trước - viết thường, duy nh�
      tách biệt khỏi "General purpose buckets". Riêng chi tiết đó đã trả lời được câu hỏi
      mà hầu hết người đọc đang thắc mắc ở đoạn này. -->
 
-![Tạo vector bucket](/images/5-Workshop/5.6-S3-Vectors/create-vector-bucket.png)
+![Tạo vector bucket](images/5-Workshop/5.6-S3-Vectors/create-vector-bucket.png)
 
 ---
 
@@ -106,7 +106,7 @@ Dự án này không đặt tham số đó. Mục 6 sẽ giải thích lý do: b
      Đây là tấm ảnh giá trị nhất của chương - bốn giá trị này chính là bản hợp đồng
      giữa chương 5.4 và chương 5.7. -->
 
-![Tạo vector index](/images/5-Workshop/5.6-S3-Vectors/create-index.png)
+![Tạo vector index](images/5-Workshop/5.6-S3-Vectors/create-index.png)
 
 ---
 
@@ -155,7 +155,7 @@ done: 8279 vectors uploaded
      Chụp cho rõ con số tổng cuối cùng - nó phải bằng đúng số "child docs" mà cell kiểm tra
      ở chương 5.4 đã in ra. -->
 
-![Nạp vector vào index](/images/5-Workshop/5.6-S3-Vectors/ingest-output.png)
+![Nạp vector vào index](images/5-Workshop/5.6-S3-Vectors/ingest-output.png)
 
 ---
 
@@ -204,7 +204,7 @@ Nếu kết quả trả về là những tài liệu chẳng liên quan gì đ�
      Chụp đủ số dòng để người đọc thấy được các tiêu đề đúng chủ đề với câu hỏi - chính
      sự liên quan đó mới là bằng chứng, không phải việc script chạy được. -->
 
-![Truy hồi ngữ nghĩa hoạt động trên index](/images/5-Workshop/5.6-S3-Vectors/retrieval-check.png)
+![Truy hồi ngữ nghĩa hoạt động trên index](images/5-Workshop/5.6-S3-Vectors/retrieval-check.png)
 
 ---
 

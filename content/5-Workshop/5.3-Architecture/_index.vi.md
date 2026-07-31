@@ -51,7 +51,7 @@ Vì sao điều này quan trọng: dựng lại một vector index tốn hàng p
      Đánh dấu region ap-southeast-1 bao quanh các tài nguyên AWS.
      Gắn icon IAM role lên khối EC2 với nhãn rag-ec2-runtime-role. -->
 
-![Sơ đồ kiến trúc](/images/5-Workshop/5.3-Architecture/architecture-overview.png)
+![Sơ đồ kiến trúc](images/5-Workshop/5.3-Architecture/architecture-overview.png)
 
 Hệ thống gồm bốn tầng:
 
@@ -75,7 +75,7 @@ Hệ thống gồm bốn tầng:
        -> upload lên Amazon S3  VÀ  PutVectors lên Amazon S3 Vectors
      Nhớ chú thích rõ bước "parent/child", đây là phần người đọc hay nhầm nhất. -->
 
-![Pipeline nạp dữ liệu offline](/images/5-Workshop/5.3-Architecture/offline-pipeline.png)
+![Pipeline nạp dữ liệu offline](images/5-Workshop/5.3-Architecture/offline-pipeline.png)
 
 Các bước, theo thứ tự:
 
@@ -112,7 +112,7 @@ Các artifact được tạo ra (đều nằm dưới một id có đánh phiên
        -> phản hồi {answer, sources, timings, token_usage}
      Mũi tên vòng lại của hop planner là điểm nhấn quan trọng nhất - vẽ cho thật rõ. -->
 
-![Luồng xử lý truy vấn online](/images/5-Workshop/5.3-Architecture/online-query-flow.png)
+![Luồng xử lý truy vấn online](images/5-Workshop/5.3-Architecture/online-query-flow.png)
 
 Điều gì xảy ra khi một request đến `POST /query`:
 
@@ -190,7 +190,7 @@ Bảo mật ở đây nằm ở việc loại bỏ thông tin xác thực tồn 
      AmazonSSMManagedInstanceCore) để chứng minh cho khẳng định chỉ-đọc ở trên.
      Nhớ làm mờ / cắt bỏ AWS account id 12 chữ số trước khi publish. -->
 
-![IAM role của backend EC2](/images/5-Workshop/5.3-Architecture/iam-role-permissions.png)
+![IAM role của backend EC2](images/5-Workshop/5.3-Architecture/iam-role-permissions.png)
 
 {{% notice warning %}}
 Hạn chế đã biết, xin nêu thẳng thắn: backend hiện vẫn lắng nghe cổng `8000` trên một IP công khai, chỉ được giới hạn bằng luật security group. Với một triển khai production thực thụ, instance nên nằm trong private subnet và chỉ API Gateway (thông qua VPC Link) mới tiếp cận được. Vấn đề này sẽ được bàn lại ở chương 5.13.
@@ -270,7 +270,7 @@ Tầng truy hồi và lưu trữ vốn đã serverless và co giãn được; **
        - danh sách nguồn/bằng chứng bên dưới câu trả lời
      Riêng tấm này chứng minh tiêu chí "triển khai end-to-end" trong thang điểm. -->
 
-![Hệ thống đã triển khai trả lời một câu hỏi đa bước](/images/5-Workshop/5.3-Architecture/end-to-end-demo.png)
+![Hệ thống đã triển khai trả lời một câu hỏi đa bước](images/5-Workshop/5.3-Architecture/end-to-end-demo.png)
 
 {{% notice note %}}
 Tên bucket là duy nhất trên toàn cầu - khi bạn làm lại workshop này thì phải chọn tên riêng của mình. Mọi chương từ 5.4 trở đi đều tham chiếu ngược lại những tên bạn chọn ở đây.

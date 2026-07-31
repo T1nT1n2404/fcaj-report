@@ -8,7 +8,7 @@ pre: " <b> 3.3. </b> "
 
 # Amazon Aurora DSQL: Khi Cơ Sở Dữ Liệu Phân Tán Không Còn Phải Đánh Đổi Giữa Tốc Độ Và Tính Nhất Quán
 
-![Bài viết đã đăng trên nhóm Facebook AWS Study Group VN](/images/BlogsPosted/blog3.png)
+![Bài viết đã đăng trên nhóm Facebook AWS Study Group VN](images/BlogsPosted/blog3.png)
 *Đã đăng lên nhóm Facebook AWS Study Group VN.*
 
 Xây một cơ sở dữ liệu quan hệ phân tán trên nhiều Region từ trước đến nay luôn buộc đội kỹ thuật phải chọn một trong hai hướng: hoặc chấp nhận eventual consistency để đổi lấy độ trễ thấp, hoặc đồng bộ hoá đồng bộ (synchronous replication) giữa các Region cho mọi lần commit để giữ tính nhất quán mạnh, nhưng phải trả giá bằng độ trễ ghi rất cao. Amazon Aurora DSQL, ra mắt GA từ tháng 5/2025 và liên tục bổ sung tính năng trong suốt năm 2026, được AWS thiết kế để phá vỡ đúng sự đánh đổi kinh điển này: đọc với độ trễ thấp ở bất kỳ Region nào, còn ghi vẫn được xác thực nhất quán trên toàn cầu.

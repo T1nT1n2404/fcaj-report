@@ -166,7 +166,7 @@ Nếu câu hỏi đầu tiên sau một quãng nghỉ bị timeout, đó là hi�
      "triển khai end-to-end" trong thang điểm. Chương 5.3 cũng tham chiếu đúng tấm này,
      nên chụp một lần rồi dùng cho cả hai chỗ. -->
 
-![Ứng dụng đã triển khai đang trả lời một câu hỏi](/images/5-Workshop/5.9-Amplify-Frontend/deployed-app.png)
+![Ứng dụng đã triển khai đang trả lời một câu hỏi](images/5-Workshop/5.9-Amplify-Frontend/deployed-app.png)
 
 ---
 

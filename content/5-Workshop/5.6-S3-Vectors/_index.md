@@ -61,7 +61,7 @@ Bucket names follow the same rules as before - lowercase, globally unique within
      separate entry from "General purpose buckets". That single detail answers the
      question most readers have at this point. -->
 
-![Creating the vector bucket](/images/5-Workshop/5.6-S3-Vectors/create-vector-bucket.png)
+![Creating the vector bucket](images/5-Workshop/5.6-S3-Vectors/create-vector-bucket.png)
 
 ---
 
@@ -106,7 +106,7 @@ This project does not set it. Section 6 explains why: the retriever never reads 
      This is the highest-value screenshot in the chapter - these four values are the
      contract between chapters 5.4 and 5.7. -->
 
-![Creating the vector index](/images/5-Workshop/5.6-S3-Vectors/create-index.png)
+![Creating the vector index](images/5-Workshop/5.6-S3-Vectors/create-index.png)
 
 ---
 
@@ -155,7 +155,7 @@ done: 8279 vectors uploaded
      Make the final total legible - it should equal the "child docs" count printed by
      the validation cell in chapter 5.4. -->
 
-![Ingesting vectors into the index](/images/5-Workshop/5.6-S3-Vectors/ingest-output.png)
+![Ingesting vectors into the index](images/5-Workshop/5.6-S3-Vectors/ingest-output.png)
 
 ---
 
@@ -204,7 +204,7 @@ If this returns documents that have nothing to do with the question, the cause i
      Capture enough lines that a reader can see the titles are topically relevant to
      the question - that relevance is the actual evidence, not the fact it ran. -->
 
-![Dense retrieval working against the index](/images/5-Workshop/5.6-S3-Vectors/retrieval-check.png)
+![Dense retrieval working against the index](images/5-Workshop/5.6-S3-Vectors/retrieval-check.png)
 
 ---
 

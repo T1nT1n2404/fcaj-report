@@ -8,7 +8,7 @@ pre: " <b> 3.3. </b> "
 
 # Amazon Aurora DSQL: When a Distributed Database No Longer Has to Trade Off Speed for Consistency
 
-![Blog post published on the AWS Study Group VN Facebook group](/images/BlogsPosted/blog3.png)
+![Blog post published on the AWS Study Group VN Facebook group](images/BlogsPosted/blog3.png)
 *Posted to the AWS Study Group VN Facebook group.*
 
 Building a distributed relational database across multiple Regions has traditionally forced teams into one of two paths: accept eventual consistency to get low latency, or synchronously replicate every commit across Regions to keep strong consistency – at the cost of very high write latency. Amazon Aurora DSQL, which reached General Availability in May 2025 and has kept shipping new features throughout 2026, was designed by AWS to break exactly that classic trade-off: low-latency reads from any Region, while writes are still validated for consistency globally.

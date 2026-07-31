@@ -43,9 +43,9 @@ On **11/07/2026**, I had the opportunity to attend the **final round** of the **
 
 ### Event Photos
 
-![Event 2 - Photo 1](/images/4-EventsParticipated/event2-1.png)
+![Event 2 - Photo 1](images/4-EventsParticipated/event2-1.png)
 
-![Event 2 - Photo 2](/images/4-EventsParticipated/event2-2.png)
+![Event 2 - Photo 2](images/4-EventsParticipated/event2-2.png)
 
 ### Event Experience as an Audience Member
 

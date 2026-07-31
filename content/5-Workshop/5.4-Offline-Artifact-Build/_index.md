@@ -47,7 +47,7 @@ backend/notebooks/build_s3_offline_artifacts.ipynb
      This evidences the environment decision explained in the table above.
      If you built on CPU instead, screenshot that dialog instead and say so honestly. -->
 
-![Selecting a GPU runtime in Colab](/images/5-Workshop/5.4-Offline-Artifact-Build/colab-gpu-runtime.png)
+![Selecting a GPU runtime in Colab](images/5-Workshop/5.4-Offline-Artifact-Build/colab-gpu-runtime.png)
 
 ---
 
@@ -132,7 +132,7 @@ Note that the embedding model name is baked into `INDEX_ID`. That is deliberate:
      Capture the cell code above it too if it fits, so the reader sees input and output together.
      Crop out the Drive path if it contains a personal folder name. -->
 
-![Notebook configuration output](/images/5-Workshop/5.4-Offline-Artifact-Build/notebook-config-output.png)
+![Notebook configuration output](images/5-Workshop/5.4-Offline-Artifact-Build/notebook-config-output.png)
 
 ---
 
@@ -242,7 +242,7 @@ Batching into files of 500 is not cosmetic: it keeps each `PutVectors` request w
      This is the evidence that the heavy step actually ran, and the timing is worth
      quoting in chapter 5.11. -->
 
-![Embedding the child documents](/images/5-Workshop/5.4-Offline-Artifact-Build/embedding-progress.png)
+![Embedding the child documents](images/5-Workshop/5.4-Offline-Artifact-Build/embedding-progress.png)
 
 ---
 
@@ -382,7 +382,7 @@ Do not proceed to chapter 5.5 until this cell passes. Catching a missing file he
      child docs, vector import files).
      These numbers are quoted again in chapter 5.11, so make them legible. -->
 
-![Validation checklist output](/images/5-Workshop/5.4-Offline-Artifact-Build/validation-checklist.png)
+![Validation checklist output](images/5-Workshop/5.4-Offline-Artifact-Build/validation-checklist.png)
 
 ---
 
@@ -412,7 +412,7 @@ os.environ['USE_FLAX'] = '0'
      rag/processed and rag/indexes subfolders and the put_vectors_*.json files.
      This shows the reader exactly what they should have before chapter 5.5. -->
 
-![The assembled upload folder](/images/5-Workshop/5.4-Offline-Artifact-Build/upload-folder-tree.png)
+![The assembled upload folder](images/5-Workshop/5.4-Offline-Artifact-Build/upload-folder-tree.png)
 
 | Produced | Consumed by |
 | --- | --- |

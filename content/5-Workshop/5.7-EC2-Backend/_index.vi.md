@@ -108,7 +108,7 @@ aws ec2 associate-address --instance-id <instance-id> --allocation-id <allocatio
      "Public IPv4 address", và trường "IAM Role" hiển thị rag-ec2-runtime-role.
      Làm mờ instance id và IP nếu bạn không muốn công khai chúng. -->
 
-![Instance backend cùng Elastic IP và role của nó](/images/5-Workshop/5.7-EC2-Backend/ec2-instance.png)
+![Instance backend cùng Elastic IP và role của nó](images/5-Workshop/5.7-EC2-Backend/ec2-instance.png)
 
 ---
 
@@ -176,7 +176,7 @@ Nếu agent ghi log lỗi thông tin xác thực, nguyên nhân gần như luôn
      Phải thấy được hai thứ: chính giao diện Session Manager (chứng minh không dùng SSH)
      và dịch vụ đang ở trạng thái "active (running)". -->
 
-![Kết nối qua Session Manager](/images/5-Workshop/5.7-EC2-Backend/session-manager.png)
+![Kết nối qua Session Manager](images/5-Workshop/5.7-EC2-Backend/session-manager.png)
 
 ---
 
@@ -266,7 +266,7 @@ Bản triển khai này **chưa** thực hiện bước chuyển đó. Nó đư�
      Hãy chụp output của lệnh đó thay vì dùng `cat`.
      Tuyệt đối không publish ảnh có chứa giá trị key. -->
 
-![File môi trường của production](/images/5-Workshop/5.7-EC2-Backend/env-prod.png)
+![File môi trường của production](images/5-Workshop/5.7-EC2-Backend/env-prod.png)
 
 ## 8. Chạy dưới systemd
 

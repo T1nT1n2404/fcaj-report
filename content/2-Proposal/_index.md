@@ -81,7 +81,7 @@ After retrieval, the strongest evidence will be ranked and reduced to a focused 
 
 The RAG pipeline will be deployed as a web application using several AWS services with separate responsibilities.
 
-![AWS CloudHop RAG proposed architecture](/images/2-Proposal/rag_diagram.png)
+![AWS CloudHop RAG proposed architecture](images/2-Proposal/rag_diagram.png)
 
 The planned application flow is:
 

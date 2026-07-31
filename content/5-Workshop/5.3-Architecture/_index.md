@@ -38,7 +38,7 @@ Why this matters: rebuilding a vector index costs minutes of CPU. If that work s
 ## 2. Overall architecture
 
 
-![Architecture diagram](/images/5-Workshop/5.3-Architecture/architecture-overview.png)
+![Architecture diagram](images/5-Workshop/5.3-Architecture/architecture-overview.png)
 
 The system has four tiers:
 
@@ -62,7 +62,7 @@ The **Groq API** is an external SaaS LLM endpoint. It is deliberately drawn *out
        -> upload to Amazon S3  AND  PutVectors to Amazon S3 Vectors
      Annotate the "parent/child" step, it is the part readers find confusing. -->
 
-![Offline ingestion pipeline](/images/5-Workshop/5.3-Architecture/offline-pipeline.png)
+![Offline ingestion pipeline](images/5-Workshop/5.3-Architecture/offline-pipeline.png)
 
 Steps, in order:
 
@@ -99,7 +99,7 @@ Artifacts produced (all under one versioned id, e.g. `hotpotqa-val500-v002`):
        -> response {answer, sources, timings, token_usage}
      The loop-back arrow for the hop planner is the key visual - make it obvious. -->
 
-![Online query flow](/images/5-Workshop/5.3-Architecture/online-query-flow.png)
+![Online query flow](images/5-Workshop/5.3-Architecture/online-query-flow.png)
 
 What happens when a request arrives at `POST /query`:
 
@@ -177,7 +177,7 @@ Security here is about removing long-lived credentials and closing default doors
      AmazonSSMManagedInstanceCore) so the read-only claim above is evidenced.
      Blur / crop out the 12-digit AWS account id before publishing. -->
 
-![IAM role for the EC2 backend](/images/5-Workshop/5.3-Architecture/iam-role-permissions.png)
+![IAM role for the EC2 backend](images/5-Workshop/5.3-Architecture/iam-role-permissions.png)
 
 {{% notice warning %}}
 Known limitation, stated honestly: the backend still listens on port `8000` on a public IP, restricted by security group rules. For a production deployment the instance should sit in a private subnet with only API Gateway (via a VPC Link) able to reach it. This is discussed again in chapter 5.13.
@@ -257,7 +257,7 @@ The retrieval and storage tiers are already serverless and elastic; **the only r
        - the source/evidence list under the answer
      This single screenshot is the evidence for the end-to-end deployment criterion in the grading rubric. -->
 
-![Deployed system answering a multi-hop question](/images/5-Workshop/5.3-Architecture/end-to-end-demo.png)
+![Deployed system answering a multi-hop question](images/5-Workshop/5.3-Architecture/end-to-end-demo.png)
 
 {{% notice note %}}
 Bucket names are globally unique - when you reproduce this workshop you must choose your own. Every chapter from 5.4 onward refers back to the names you pick here.

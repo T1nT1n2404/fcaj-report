@@ -47,7 +47,7 @@ backend/notebooks/build_s3_offline_artifacts.ipynb
      Đây là bằng chứng cho quyết định môi trường đã giải thích ở bảng trên.
      Nếu bạn build bằng CPU thì chụp đúng hộp thoại đó và ghi rõ như vậy. -->
 
-![Chọn runtime GPU trong Colab](/images/5-Workshop/5.4-Offline-Artifact-Build/colab-gpu-runtime.png)
+![Chọn runtime GPU trong Colab](images/5-Workshop/5.4-Offline-Artifact-Build/colab-gpu-runtime.png)
 
 ---
 
@@ -132,7 +132,7 @@ index id     : hotpotqa-val500-bge-m3-v002
      Chụp kèm cả phần code phía trên nếu vừa khung, để người đọc thấy được cả đầu vào lẫn đầu ra.
      Cắt bỏ đường dẫn Drive nếu nó chứa tên thư mục cá nhân. -->
 
-![Output cell cấu hình của notebook](/images/5-Workshop/5.4-Offline-Artifact-Build/notebook-config-output.png)
+![Output cell cấu hình của notebook](images/5-Workshop/5.4-Offline-Artifact-Build/notebook-config-output.png)
 
 ---
 
@@ -242,7 +242,7 @@ Việc chia thành các file 500 vector không phải để cho đẹp: nó gi�
      Đây là bằng chứng bước nặng nhất đã thực sự chạy, và con số thời gian đáng để
      trích lại ở chương 5.11. -->
 
-![Embed các child document](/images/5-Workshop/5.4-Offline-Artifact-Build/embedding-progress.png)
+![Embed các child document](images/5-Workshop/5.4-Offline-Artifact-Build/embedding-progress.png)
 
 ---
 
@@ -382,7 +382,7 @@ vector import files: 17
      vector import files).
      Những con số này sẽ được trích lại ở chương 5.11, nên chụp cho rõ chữ. -->
 
-![Output của bước kiểm tra](/images/5-Workshop/5.4-Offline-Artifact-Build/validation-checklist.png)
+![Output của bước kiểm tra](images/5-Workshop/5.4-Offline-Artifact-Build/validation-checklist.png)
 
 ---
 
@@ -412,7 +412,7 @@ os.environ['USE_FLAX'] = '0'
      rag/corpora, rag/processed, rag/indexes và các file put_vectors_*.json.
      Ảnh này cho người đọc thấy chính xác họ phải có gì trước khi sang chương 5.5. -->
 
-![Thư mục upload đã lắp ráp xong](/images/5-Workshop/5.4-Offline-Artifact-Build/upload-folder-tree.png)
+![Thư mục upload đã lắp ráp xong](images/5-Workshop/5.4-Offline-Artifact-Build/upload-folder-tree.png)
 
 | Tạo ra | Được dùng bởi |
 | --- | --- |

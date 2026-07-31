@@ -48,9 +48,9 @@ Vào ngày **11/07/2026**, tôi đã có cơ hội đến xem với vai trò **k
 
 ### Hình ảnh sự kiện
 
-![Event 2 - Ảnh 1](/images/4-EventsParticipated/event2-1.png)
+![Event 2 - Ảnh 1](images/4-EventsParticipated/event2-1.png)
 
-![Event 2 - Ảnh 2](/images/4-EventsParticipated/event2-2.png)
+![Event 2 - Ảnh 2](images/4-EventsParticipated/event2-2.png)
 
 ### Trải nghiệm với vai trò khán giả
 

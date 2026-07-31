@@ -78,7 +78,7 @@ Any region other than `us-east-1` requires the `--create-bucket-configuration` f
        - the "Block all public access" checkbox TICKED
      This one screenshot evidences both the region decision and the security default. -->
 
-![Creating the artifact bucket](/images/5-Workshop/5.5-S3-Storage/create-bucket.png)
+![Creating the artifact bucket](images/5-Workshop/5.5-S3-Storage/create-bucket.png)
 
 ---
 
@@ -123,7 +123,7 @@ SSE-KMS with a customer-managed key would give per-key audit trails and separate
        - "Default encryption: Server-side encryption with Amazon S3 managed keys (SSE-S3)"
      If they do not fit in one screen, take two and put them side by side. -->
 
-![Versioning and default encryption enabled](/images/5-Workshop/5.5-S3-Storage/bucket-properties.png)
+![Versioning and default encryption enabled](images/5-Workshop/5.5-S3-Storage/bucket-properties.png)
 
 ---
 
@@ -195,7 +195,7 @@ On Windows, quote the local path - the notebook output folder usually sits under
      Make sure at least one line for each of corpora/, processed/ and indexes/ is visible,
      so the reader can see all three prefixes were written. -->
 
-![Uploading the artifact tree to S3](/images/5-Workshop/5.5-S3-Storage/upload-output.png)
+![Uploading the artifact tree to S3](images/5-Workshop/5.5-S3-Storage/upload-output.png)
 
 ---
 
@@ -233,7 +233,7 @@ rag/indexes/<index id>/manifests/index_manifest.json
      corpora/ processed/ indexes/ folders visible.
      Keep the breadcrumb in shot - it evidences the bucket name. -->
 
-![The rag/ prefix in the S3 console](/images/5-Workshop/5.5-S3-Storage/s3-console-tree.png)
+![The rag/ prefix in the S3 console](images/5-Workshop/5.5-S3-Storage/s3-console-tree.png)
 
 One level deeper, `indexes/<index id>/` holds the three prefixes the backend reads at startup:
 
@@ -242,7 +242,7 @@ One level deeper, `indexes/<index id>/` holds the three prefixes the backend rea
      manifests/ and s3vectors-import/.
      Keep the breadcrumb in shot - it evidences the index id. -->
 
-![Inside the index prefix](/images/5-Workshop/5.5-S3-Storage/s3-console-index.png)
+![Inside the index prefix](images/5-Workshop/5.5-S3-Storage/s3-console-index.png)
 
 ---
 
