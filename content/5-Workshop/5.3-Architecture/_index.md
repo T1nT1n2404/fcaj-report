@@ -37,22 +37,8 @@ Why this matters: rebuilding a vector index costs minutes of CPU. If that work s
 
 ## 2. Overall architecture
 
-<!-- IMAGE 1 - ARCHITECTURE DIAGRAM (draw.io / Excalidraw, NOT a screenshot).
-     Must show, left to right:
-       [Browser] --HTTPS--> [AWS Amplify Hosting: React/Vite]
-                 --HTTPS--> [Amazon API Gateway (HTTP API)]
-                 --HTTP :8000--> [Amazon EC2 (Ubuntu) - FastAPI under systemd]
-     From the EC2 box, draw arrows to:
-       [Amazon S3]  (processed docs, BM25 index, manifest)
-       [Amazon S3 Vectors]  (dense embeddings, QueryVectors)
-       [AWS Systems Manager]  (Session Manager - admin access only)
-       [Groq API]  (external, outside the AWS boundary - draw it outside the AWS box)
-     Also draw a separate dashed box labelled "OFFLINE (run once)":
-       [corpus.jsonl] -> [chunk + embed + BM25] -> [Amazon S3] + [Amazon S3 Vectors]
-     Mark the AWS region ap-southeast-1 around the AWS resources.
-     Put an IAM role icon on the EC2 box labelled rag-ec2-runtime-role. -->
 
-![Architecture diagram](/images/5-Workshop/5.1-Workshop-overview/rag_diagram.png)
+![Architecture diagram](/images/5-Workshop/5.3-Architecture/architecture-overview.png)
 
 The system has four tiers:
 
@@ -113,7 +99,7 @@ Artifacts produced (all under one versioned id, e.g. `hotpotqa-val500-v002`):
        -> response {answer, sources, timings, token_usage}
      The loop-back arrow for the hop planner is the key visual - make it obvious. -->
 
-![Online query flow](/images/5-Workshop/5.3-Architecture/online_query_pipeline.png)
+![Online query flow](/images/5-Workshop/5.3-Architecture/online-query-flow.png)
 
 What happens when a request arrives at `POST /query`:
 
@@ -155,18 +141,18 @@ The project uses **eight AWS services**. Each row states what it does here and w
 
 ```text
 Browser
-  │  HTTPS
-  ▼
+  |  HTTPS
+  v
 AWS Amplify Hosting  (React/Vite SPA)
-  │  HTTPS  POST /query
-  ▼
-Amazon API Gateway (HTTP API)          ← TLS termination + CORS
-  │  HTTP  :8000
-  ▼
+  |  HTTPS  POST /query
+  v
+Amazon API Gateway (HTTP API)          <- TLS termination + CORS
+  |  HTTP  :8000
+  v
 Amazon EC2 - FastAPI (systemd: aws-rag-api)
-  ├──► Amazon S3            parent/child docs, BM25 index, manifest
-  ├──► Amazon S3 Vectors    QueryVectors (semantic retrieval)
-  └──► Groq API             decompose · hop plan · generate
+  |--> Amazon S3            parent/child docs, BM25 index, manifest
+  |--> Amazon S3 Vectors    QueryVectors (semantic retrieval)
+  `--> Groq API             decompose - hop plan - generate
 ```
 
 The frontend must be configured with the **API Gateway HTTPS URL**, never the raw EC2 address. This is the single most common mistake when reproducing this workshop, and chapter 5.8 covers it in detail.

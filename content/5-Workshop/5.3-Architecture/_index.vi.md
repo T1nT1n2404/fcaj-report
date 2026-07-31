@@ -45,7 +45,6 @@ Vì sao điều này quan trọng: dựng lại một vector index tốn hàng p
      Từ khối EC2, vẽ mũi tên tới:
        [Amazon S3]  (processed docs, BM25 index, manifest)
        [Amazon S3 Vectors]  (dense embeddings, QueryVectors)
-       [AWS Systems Manager]  (Session Manager - chi dung de truy cap quan tri)
        [Groq API]  (bên ngoài, nằm NGOÀI khung AWS)
      Vẽ thêm một khung nét đứt riêng ghi "OFFLINE (chạy một lần)":
        [corpus.jsonl] -> [chunk + embed + BM25] -> [Amazon S3] + [Amazon S3 Vectors]
@@ -155,18 +154,18 @@ Dự án sử dụng **tám dịch vụ AWS**. Mỗi dòng nêu rõ vai trò tro
 
 ```text
 Trình duyệt
-  │  HTTPS
-  ▼
+  |  HTTPS
+  v
 AWS Amplify Hosting  (React/Vite SPA)
-  │  HTTPS  POST /query
-  ▼
-Amazon API Gateway (HTTP API)          ← kết thúc TLS + CORS
-  │  HTTP  :8000
-  ▼
+  |  HTTPS  POST /query
+  v
+Amazon API Gateway (HTTP API)          <- ket thuc TLS + CORS
+  |  HTTP  :8000
+  v
 Amazon EC2 - FastAPI (systemd: aws-rag-api)
-  ├──► Amazon S3            parent/child docs, chỉ mục BM25, manifest
-  ├──► Amazon S3 Vectors    QueryVectors (truy hồi ngữ nghĩa)
-  └──► Groq API             tách câu hỏi · lập kế hoạch hop · sinh câu trả lời
+  |--> Amazon S3            parent/child docs, chi muc BM25, manifest
+  |--> Amazon S3 Vectors    QueryVectors (truy hoi ngu nghia)
+  `--> Groq API             tach cau hoi - lap ke hoach hop - sinh cau tra loi
 ```
 
 Frontend bắt buộc phải được cấu hình bằng **URL HTTPS của API Gateway**, tuyệt đối không dùng địa chỉ EC2 thô. Đây là lỗi phổ biến nhất khi làm lại workshop này, và chương 5.8 sẽ nói kỹ về nó.
