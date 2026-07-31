@@ -1,4 +1,4 @@
-baseURL = "[https://t1nt1n2404.github.io/fcaj-report/](https://t1nt1n2404.github.io/fcaj-report/)"
+baseURL = "https://t1nt1n2404.github.io/fcaj-report/"
 relativeURLs = false
 canonifyURLs = true
 defaultContentLanguage = "en"
